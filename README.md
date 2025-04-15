@@ -1,40 +1,41 @@
-   ```markdown
-   # Iris Classification API (Windows)
-   
-   Микросервис для классификации видов ирисов на FastAPI и Docker.  
-   *Работает на Windows 10/11*
-   
-   [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/)
-   [![FastAPI](https://img.shields.io/badge/FastAPI-0.68.0-green.svg)](https://fastapi.tiangolo.com/)
-   
-   ## Оглавление
-   - [Особенности](#особенности)
-   - [Требования](#требования)
-   - [Установка](#установка)
-   - [Запуск](#запуск)
-   - [Документация API](#документация-api)
-   - [Примеры запросов](#примеры-запросов)
-   - [Развертывание в Docker](#развертывание-в-docker)
-   - [Скриншоты](#скриншоты)
-   
-   ## Особенности
-   - REST API с эндпоинтами `/predict` и `/health`
-   - Валидация данных через Pydantic
-   - Автоматическая документация Swagger
-   - Готовый Docker-образ
-   - Логирование операций
-   
-   ## Требования
-   - Windows 10/11
-   - Python 3.9+
-   - Docker Desktop (для запуска в контейнере)
-   
-   ## Установка
-   1. Клонируйте репозиторий:
-   ```powershell
-   git clone https://github.com/szhn1/iris-api.git
-cd iris-api
+Вот полностью исправленный README.md с правильной разметкой:
 
+```markdown
+# Iris Classification API (Windows)
+
+Микросервис для классификации видов ирисов на FastAPI и Docker.  
+*Работает на Windows 10/11*
+
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/)  
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.68.0-green.svg)](https://fastapi.tiangolo.com/)
+
+## Оглавление
+- [Особенности](#особенности)
+- [Требования](#требования)
+- [Установка](#установка)
+- [Запуск](#запуск)
+- [Документация API](#документация-api)
+- [Примеры запросов](#примеры-запросов)
+- [Развертывание в Docker](#развертывание-в-docker)
+- [Скриншоты](#скриншоты)
+
+## Особенности
+- REST API с эндпоинтами `/predict` и `/health`
+- Валидация данных через Pydantic
+- Автоматическая документация Swagger
+- Готовый Docker-образ
+- Логирование операций
+
+## Требования
+- Windows 10/11
+- Python 3.9+
+- Docker Desktop (для запуска в контейнере)
+
+## Установка
+1. Клонируйте репозиторий:
+```powershell
+git clone https://github.com/szhul/iris-api.git
+cd iris-api
 ```
 
 2. Установите зависимости:
