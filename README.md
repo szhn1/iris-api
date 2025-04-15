@@ -58,7 +58,7 @@ docker run -p 8000:8000 iris-api
 Доступна после запуска по адресу:  
 `http://localhost:8000/docs`
 
-![Swagger UI](images/swagger.png)
+![Swagger UI]
 
 ## Примеры запросов (PowerShell)
 ### Проверка работоспособности
