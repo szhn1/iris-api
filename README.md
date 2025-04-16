@@ -1,6 +1,3 @@
-
-
-```markdown
 # Iris Classification API (Windows)
 
 Микросервис для классификации видов ирисов на FastAPI и Docker.  
@@ -32,11 +29,11 @@
 - Docker Desktop (для запуска в контейнере)
 
 ## Установка
+
 1. Клонируйте репозиторий:
 ```powershell
 git clone https://github.com/szhul/iris-api.git
 cd iris-api
-```
 
 2. Установите зависимости:
 ```powershell
