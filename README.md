@@ -77,6 +77,16 @@ Invoke-WebRequest -Uri "http://localhost:8000/predict" `
 -Body $Body
 ```
 
+Или(через Postman)
+```
+{
+  "sepal_length": 6.0,
+  "sepal_width": 2.7,
+  "petal_length": 5.1,
+  "petal_width": 1.6
+}
+```
+
 ## Развертывание в Docker
 1. Соберите образ:
 ```powershell
