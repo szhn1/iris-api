@@ -32,7 +32,7 @@
 
 1. Клонируйте репозиторий:
 ```powershell
-git clone https://github.com/szhul/iris-api.git
+git clone https://github.com/szhn1/iris-api.git
 cd iris-api
 
 2. Установите зависимости:
